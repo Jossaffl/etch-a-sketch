@@ -1,0 +1,39 @@
+#container{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex:0 0 1;
+    height: 512px;
+    width: 512px;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: black;
+    
+}
+
+.traced{
+    background-color: black;
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    width: 22px;
+    height: 22px;
+    box-sizing: border-box;
+
+    
+
+}
+
+.untraced{
+    background-color: white;
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    width: 22px;
+    height: 22px;
+    box-sizing: border-box;
+
+
+
+}
